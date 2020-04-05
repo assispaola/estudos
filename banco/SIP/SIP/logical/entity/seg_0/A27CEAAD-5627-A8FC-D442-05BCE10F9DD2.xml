@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A27CEAAD-5627-A8FC-D442-05BCE10F9DD2" name="T_SIP_FUNCIONARIO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 01:24:19 UTC</createdTime>
+<ownerDesignName>SIP</ownerDesignName>
+<engineerTo>
+<item key="F5D466A2-6114-745A-AA51-C543B1C79EFF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nr_matricula" id="77B46B68-F371-511D-FC54-0469C3B311D5">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 01:24:55 UTC</createdTime>
+<ownerDesignName>SIP</ownerDesignName>
+<engineerTo>
+<item key="F5D466A2-6114-745A-AA51-C543B1C79EFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_depto" id="A57532C8-56DD-5FA7-D348-4197036CEA43">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 01:30:12 UTC</createdTime>
+<generatorID>4C3182CF-3180-A180-D033-889B18F3F69F</generatorID>
+<ownerDesignName>SIP</ownerDesignName>
+<engineerTo>
+<item key="F5D466A2-6114-745A-AA51-C543B1C79EFF" value="true"/>
+</engineerTo>
+<referedAttribute>2A104E1F-934D-26D1-04D7-A824C5A8C4D1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_funcionario" id="FE2E0954-5BBB-7150-ECB9-49104926E8BF">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 01:25:23 UTC</createdTime>
+<ownerDesignName>SIP</ownerDesignName>
+<engineerTo>
+<item key="F5D466A2-6114-745A-AA51-C543B1C79EFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="93A1D4C1-2C1A-997A-89B0-545DF86F2FC1">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 01:33:12 UTC</createdTime>
+<ownerDesignName>SIP</ownerDesignName>
+<engineerTo>
+<item key="F5D466A2-6114-745A-AA51-C543B1C79EFF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_admissao" id="A120AB5B-F712-E3CA-299F-81EAA4DEFCCC">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 01:33:45 UTC</createdTime>
+<ownerDesignName>SIP</ownerDesignName>
+<engineerTo>
+<item key="F5D466A2-6114-745A-AA51-C543B1C79EFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_endereco" id="1063A526-779F-2A14-3ECA-A3ACA05917A5">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 01:34:08 UTC</createdTime>
+<ownerDesignName>SIP</ownerDesignName>
+<engineerTo>
+<item key="F5D466A2-6114-745A-AA51-C543B1C79EFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_salario" id="A3B52DF1-6D04-4162-30C5-40DB162EF649">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 01:35:27 UTC</createdTime>
+<ownerDesignName>SIP</ownerDesignName>
+<engineerTo>
+<item key="F5D466A2-6114-745A-AA51-C543B1C79EFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7F6F65C7-C41A-5D02-1AC9-49D3B8D0C125" name="T_SIP_FUNCIONARIO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 01:25:19 UTC</createdTime>
+<ownerDesignName>SIP</ownerDesignName>
+<engineerTo>
+<item key="F5D466A2-6114-745A-AA51-C543B1C79EFF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>77B46B68-F371-511D-FC54-0469C3B311D5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

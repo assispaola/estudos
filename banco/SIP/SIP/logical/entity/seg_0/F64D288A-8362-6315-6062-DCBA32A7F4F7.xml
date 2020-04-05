@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F64D288A-8362-6315-6062-DCBA32A7F4F7" name="T_SIP_IMPLANTACAO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 01:46:00 UTC</createdTime>
+<ownerDesignName>SIP</ownerDesignName>
+<engineerTo>
+<item key="F5D466A2-6114-745A-AA51-C543B1C79EFF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_implantacao" id="73991549-96E0-EDB8-D491-E709C23DF397">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 01:46:23 UTC</createdTime>
+<ownerDesignName>SIP</ownerDesignName>
+<engineerTo>
+<item key="F5D466A2-6114-745A-AA51-C543B1C79EFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_projeto" id="A85510F2-D00F-56ED-A72C-62E5093BD735">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 01:58:39 UTC</createdTime>
+<generatorID>4F7CC07F-C770-2147-0E00-24E2B8B39D41</generatorID>
+<ownerDesignName>SIP</ownerDesignName>
+<engineerTo>
+<item key="F5D466A2-6114-745A-AA51-C543B1C79EFF" value="true"/>
+</engineerTo>
+<referedAttribute>B1D63772-D3DC-FDF3-BB67-52390F954D7B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_matricula" id="DE17B0A4-AD45-B2AF-9111-46D804B2EEAE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 01:49:12 UTC</createdTime>
+<generatorID>91BCD6B8-EE09-B5CC-FC24-8F76FCCAE0F0</generatorID>
+<ownerDesignName>SIP</ownerDesignName>
+<engineerTo>
+<item key="F5D466A2-6114-745A-AA51-C543B1C79EFF" value="true"/>
+</engineerTo>
+<referedAttribute>77B46B68-F371-511D-FC54-0469C3B311D5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_entrada" id="18C9254C-46B7-BE9C-F840-B9D22C619A4E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 01:47:49 UTC</createdTime>
+<ownerDesignName>SIP</ownerDesignName>
+<engineerTo>
+<item key="F5D466A2-6114-745A-AA51-C543B1C79EFF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_saida" id="EBFB5B67-9991-3EDD-0C0E-1F6877892E91">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 01:48:16 UTC</createdTime>
+<ownerDesignName>SIP</ownerDesignName>
+<engineerTo>
+<item key="F5D466A2-6114-745A-AA51-C543B1C79EFF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F5B5665F-B0AF-C81E-1089-4048375514C9" name="T_SIP_IMPLATACAO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2020-03-03 01:46:50 UTC</createdTime>
+<ownerDesignName>SIP</ownerDesignName>
+<engineerTo>
+<item key="F5D466A2-6114-745A-AA51-C543B1C79EFF" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>73991549-96E0-EDB8-D491-E709C23DF397</attributeRef>
+<attributeRef>A85510F2-D00F-56ED-A72C-62E5093BD735</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
