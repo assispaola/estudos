@@ -1,0 +1,83 @@
+
+
+	CANDIDATO
+	nome: String
+	sexo: String
+	idade: int
+	escolaridade: String
+	endereço: String
+
+	nome = Natalia Assis
+	sexo = feminino
+	idade = 24
+	escolaridade = tecnico
+	endereço = Rua Comendador Elias Zarzur, 269
+
+	nome = Bruna Santos Pereira
+	sexo = feminino
+	idade = 25
+	escolaridade = superior
+	endereço = Rua Antônio do Campo, 61
+	
+	
+	
+	
+	MÉDICO
+	nome: String
+	idcrm: String
+	especialidade: String
+	turno: String
+	
+	nome = Roberto Miranda
+	idcrm = CRM00000
+	especialidade = dermatologista
+	turno = manhã
+	
+	nome = Mariana Pires
+	idcrm = CRM00001
+	especialidade = ortopedista
+	turno = noite
+
+
+
+		
+	PILOTO
+	nome: String
+	equipe: String	
+	posição: String
+	
+	nome = Luiz Souza
+	equipe = Ferrari
+	posição = 1º
+	
+	nome = Andre Lima
+	equipe = Renault
+	posição = 3º
+	
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

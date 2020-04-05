@@ -1,0 +1,72 @@
+	
+	
+	
+	VENDA E-BOOK
+	titulo: String
+	autor: String
+	categoria: String
+	envio: String
+	
+	+ comprar
+	+ envio (download/e-mail)
+	+ cadastro
+	
+	CLIENTE
+	nome: String
+	idade: int
+	dataNascimento: Date
+	sexo: String
+	CPF/CNPJ: String
+	telefone pessoal: String
+	telefone secundário: String
+	
+	
+	
+	GABARITO:
+	
+	Classe: CLIENTE
+	Atributos:
+			RG - int/String		
+			Nome - String
+			CPF - String
+			E-mail - String
+			Endereco - String/Endereco
+			Telefone - int
+			Data de Nascmenti - Date
+			Tipo Cliente - String
+			CNPJ: String
+	Métodos:
+			Cadastrar()
+			Login()
+			Comprar()
+			Alterar()
+			
+	Classe: E-BOOK
+	Atributos:
+			Titulo - String
+			Descricao - String	
+			Autor - String/Autor
+			Genero - String/Genero
+			Editora - String/Editora
+			Valor - double
+			Disponibilidade - boolean
+	Métodos:
+	
+	Classe: Carrinho de Compras
+	Atributos:
+			Cliente - Cliente
+			Valor total - double
+			Quantidade - int
+			Livros - Lista de Livros
+			Tipo de entrega - String
+			Forma de Pagamento - String
+	Métodos:
+			Limpar carrinho()
+			Exibir os itens()
+			Adicionar itens (E-book ebook)
+			Alterar quantidade (E-book ebook, int qtd)
+			Continuar Comprando()
+			Finalizar Pedido(String tipoEntrega)
+			Remover item(E-book ebook)
+			Reembolso()
+			

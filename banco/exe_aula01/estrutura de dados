@@ -1,0 +1,31 @@
+PACIENTE
+	#idpaciente
+	nome completo
+	data nascimento
+	sexo
+	email
+	nr DDD
+	num telefone
+	
+CONSULTA
+	#nr_consulta
+	data
+	#idpaciente
+	#idmedico
+	#idhospital
+
+MÉDICO
+	#idmedico
+	numero CRM
+	nome medico
+	especialidade
+	
+UNIDADE HOSPITALAR
+	#idhospital
+	nome
+	data fundação
+	nr DDD
+	num telefone
+	estado
+	cidade
+	bairro
